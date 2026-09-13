@@ -399,7 +399,7 @@ flow.
 
 ### 5.3 Proposed MVP Architecture
 
-![Proposed Wanderly MVP Architecture](images/system-architecture.png)
+![Proposed Wanderly MVP Architecture](images/system_architecture.png)
 
 **Proposed flow:** The React client accesses authenticated server-side
 functionality. Authorised trip and catalogue data are stored in
