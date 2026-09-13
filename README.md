@@ -195,8 +195,6 @@ Wanderly aims to reduce repeated manual coordination when a trip changes. The bu
 | **Build tool** | Vite | Development and production builds |
 | **Prototype state** | React Context + localStorage | Demonstrates the complete UI flow without requiring a production backend |
 
-> **Note:** Keep "TypeScript" only if the actual project uses `.ts` / `.tsx` files. If it is a JavaScript project using `.js` / `.jsx`, replace this with **React 19 + JavaScript**.
-
 The current prototype does **not** require a production backend, cloud database, live weather service or AI API to demonstrate the submitted UI flow.
 
 ### 5.2 Proposed Build-Phase Stack
