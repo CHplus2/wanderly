@@ -2,7 +2,7 @@
 
 **Team:** Christopher Hansen, Philip Ting\
 **Problem Statement:** Travel Planner\
-**Video Presentation:** \[PASTE UNLISTED YOUTUBE LINK HERE\]\
+**Video Presentation:** https://youtu.be/F9ydyvjGBmQ?si=zgaw1WT3Uc_NguK4
 **Presentation Slides:** https://gamma.app/docs/Four-friends-finally-agree-on-a-trip-bv3lp963ut38rsx
 **UI Prototype:** https://wanderly-teal.vercel.app
 
