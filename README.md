@@ -201,11 +201,9 @@ adaptive suggestions, partial approval and persistent risk handling.
   -----------------------------------------------------------------------
   Date              Mentor            Feedback Received What We Changed
   ----------------- ----------------- ----------------- -----------------
-  \[DATE\]          \[Teh Ming En\]   \[Brainstom Ideas with Friends/AI\]        REASON IF NOT
-                                                        ADOPTED\]
+  \[DATE\]          \[Teh Ming En\]   \[Brainstom Ideas with Friends/AI\]      
 
-  \[DATE, IF        \[Janelle Tan\]   \[Speech Structure is good\]        REASON IF NOT
-                                                        ADOPTED\]
+  \[DATE\]        \[Janelle Tan\]   \[Speech Structure is important\]       
   -----------------------------------------------------------------------
 
 ------------------------------------------------------------------------
