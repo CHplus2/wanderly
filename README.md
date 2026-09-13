@@ -235,7 +235,7 @@ adjustments, modify the proposal and apply only selected changes.
 
 > **REAL PROTOTYPE SCREENSHOT PLACEHOLDER 1**
 
-`![Group Preferences and Budget Setup](images/prototype-01-preferences-budget.png)`
+`![Group Preferences and Budget Setup](images/0.png)`
 
 **Interaction shown:** Travellers configure constraints that influence
 itinerary planning while choosing how group spending should be
@@ -245,7 +245,7 @@ represented.
 
 > **REAL PROTOTYPE SCREENSHOT PLACEHOLDER 2**
 
-`![Itinerary and Budget](images/prototype-02-itinerary-budget.png)`
+`![Itinerary and Budget](images/1.png)`
 
 **Interaction shown:** The itinerary remains editable and can represent
 different activities occurring in parallel for different group members.
@@ -254,7 +254,7 @@ different activities occurring in parallel for different group members.
 
 > **REAL PROTOTYPE SCREENSHOT PLACEHOLDER 3**
 
-`![Discover and Saved](images/prototype-03-discover-saved.png)`
+`![Discover and Saved](images/5.png)`
 
 **Interaction shown:** Discover is proactive and user-initiated.
 Travellers can browse relevant alternatives, save them for later or
@@ -264,7 +264,7 @@ manually swap an individual activity.
 
 > **REAL PROTOTYPE SCREENSHOT PLACEHOLDER 4**
 
-`![Weather Risk and Review Timing](images/prototype-04-weather-risk.png)`
+`![Weather Risk and Review Timing](images/2.png)`
 
 **Interaction shown:** Wanderly distinguishes detecting a possible
 disruption from changing the itinerary. Early forecasts are presented as
@@ -275,7 +275,7 @@ deciding.
 
 > **REAL PROTOTYPE SCREENSHOT PLACEHOLDER 5**
 
-`![Editable Adaptive Review](images/editable.png)`
+`![Editable Adaptive Review](images/3.png)`
 
 **Interaction shown:** Wanderly prepares a coordinated alternative plan,
 but the traveller remains in control. Suggestions can be reviewed and
@@ -285,7 +285,7 @@ edited before any itinerary change is applied.
 
 > **REAL PROTOTYPE SCREENSHOT PLACEHOLDER 6**
 
-`![Partial Approval Result](images/prototype-06-partial-approval.png)`
+`![Partial Approval Result](images/4-approval.png)`
 
 **Interaction shown:** Applying only some suggestions does not falsely
 mark every weather issue as resolved. Any affected activity that the
