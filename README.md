@@ -254,7 +254,7 @@ edited before any itinerary change is applied.
 
 ### 3.6 Partial Approval & Remaining Risk
 
-![Partial Approval Result](images/4-approval.png)
+![Partial Approval Result](images/4.png)
 
 **Interaction shown:** Applying only some suggestions does not falsely
 mark every weather issue as resolved. Any affected activity that the
