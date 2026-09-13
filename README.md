@@ -199,7 +199,7 @@ adaptive suggestions, partial approval and persistent risk handling.
 
 | Mentor | What We Discussed / Asked | Advice Received | How It Influenced the Project |
 | --- | --- | --- | --- |
-| Janelle Tan | We showed an early version of the Wanderly prototype and asked how to manage the limited presentation time, as we were unsure which novelty features to focus on. | She advised us to focus the presentation on one or two of the strongest novelty features rather than trying to explain everything. | We narrowed the pitch around Wanderly's strongest flow: Discover for proactive alternatives and Adapt for user-controlled itinerary adjustments when disruptions occur. |
+| Janelle Tan | We described an early version of the Wanderly prototype and asked how to manage the limited presentation time, as we were unsure which novelty features to focus on. | She advised us to focus the presentation on one or two of the strongest novelty features rather than trying to explain everything. | We narrowed the pitch around Wanderly's strongest flow: Discover for proactive alternatives and Adapt for user-controlled itinerary adjustments when disruptions occur. |
 
 ------------------------------------------------------------------------
 
