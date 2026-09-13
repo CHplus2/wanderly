@@ -445,6 +445,3 @@ global activity coverage.
 
 The narrower scope is intentional so the team can demonstrate a reliable
 product within the three-week building phase.
-
--   [ ] Verify every technical reference
--   [ ] Remove instructional placeholder text before final submission
