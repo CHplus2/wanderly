@@ -171,7 +171,7 @@ and **how the selected concept evolved**.
 > **IMAGE PLACEHOLDER --- IDEATION MIND MAP**\
 > Paste the final Wanderly brainstorming / ideation mind-map image here.
 
-`![Wanderly Ideation Mind Map](images/wanderly-ideation-mindmap.png)`
+`![Wanderly Ideation Mind Map](images/board.png)`
 
 **What it shows:** The major directions explored around group planning,
 budgets, recommendations, disruption handling, travel context and ideas
@@ -182,7 +182,7 @@ that were later dropped or deferred.
 > **IMAGE PLACEHOLDER --- ITERATION / IDEA EVOLUTION TIMELINE**\
 > Paste the final Wanderly evolution timeline here.
 
-`![Wanderly Idea Evolution](images/wanderly-idea-evolution.png)`
+`![Wanderly Idea Evolution](images/timeline.png)`
 
 **What it shows:** The concept evolved from a broad group-aware travel
 planner into a focused system combining contextual discovery with
@@ -198,7 +198,7 @@ handling.**
 > **IMAGE PLACEHOLDER --- CORE USER FLOW**\
 > Paste the final Wanderly user-flow diagram here.
 
-`![Wanderly Core User Flow](images/wanderly-user-flow.png)`
+`![Wanderly Core User Flow](images/flow.png)`
 
 **What it shows:** The normal planning flow, voluntary Discover flow,
 weather-risk detection, review-now/review-later decision, editable
@@ -216,8 +216,7 @@ adaptive suggestions, partial approval and persistent risk handling.
                                       FEEDBACK\]        REASON IF NOT
                                                         ADOPTED\]
 
-  \[DATE, IF        \[MENTOR NAME\]   \[SPECIFIC        \[CHANGE MADE /
-  APPLICABLE\]                        FEEDBACK\]        REASON IF NOT
+  \[DATE, IF        \[Janelle Tan\]   \[Speech Structure is good\]        REASON IF NOT
                                                         ADOPTED\]
   -----------------------------------------------------------------------
 
@@ -225,7 +224,7 @@ adaptive suggestions, partial approval and persistent risk handling.
 
 ## 3. Design & Prototype
 
-**UI Prototype:** \[PASTE PUBLIC PROTOTYPE LINK HERE\]
+**UI Prototype:** \[https://wanderly-teal.vercel.app/\]
 
 The prototype demonstrates one consistent end-to-end travel scenario:
 configure preferences and budget, view an itinerary, explore
@@ -276,7 +275,7 @@ deciding.
 
 > **REAL PROTOTYPE SCREENSHOT PLACEHOLDER 5**
 
-`![Editable Adaptive Review](images/prototype-05-adaptive-review.png)`
+`![Editable Adaptive Review](images/editable.png)`
 
 **Interaction shown:** Wanderly prepares a coordinated alternative plan,
 but the traveller remains in control. Suggestions can be reviewed and
@@ -435,7 +434,7 @@ flow.
 > Paste the architecture diagram here and label it **Proposed MVP
 > Architecture**.
 
-`![Proposed Wanderly MVP Architecture](images/wanderly-proposed-architecture.png)`
+`![Proposed Wanderly MVP Architecture](images/system-architecture.png)`
 
 **Proposed flow:** The React client accesses authenticated server-side
 functionality. Authorised trip and catalogue data are stored in
@@ -481,23 +480,6 @@ global activity coverage.
 
 The narrower scope is intentional so the team can demonstrate a reliable
 product within the three-week building phase.
-
-------------------------------------------------------------------------
-
-## 6. References
-
-> **Before submission:** Open and verify every source you keep here.
-> Remove any reference you did not actually use.
-
-1.  Wanderlog --- https://wanderlog.com/
-2.  Vercel Functions documentation --- https://vercel.com/docs/functions
-3.  Supabase Auth architecture ---
-    https://supabase.com/docs/guides/auth/architecture
-4.  Open-Meteo Forecast API documentation ---
-    https://open-meteo.com/en/docs
-5.  Open-Meteo pricing --- https://open-meteo.com/en/pricing
-6.  Supabase Row Level Security documentation ---
-    https://supabase.com/docs/guides/database/postgres/row-level-security
 
 ------------------------------------------------------------------------
 
