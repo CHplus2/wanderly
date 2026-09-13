@@ -168,9 +168,6 @@ and **how the selected concept evolved**.
 
 #### A. Ideation Mind Map
 
-> **IMAGE PLACEHOLDER --- IDEATION MIND MAP**\
-> Paste the final Wanderly brainstorming / ideation mind-map image here.
-
 `![Wanderly Ideation Mind Map](images/board.png)`
 
 **What it shows:** The major directions explored around group planning,
@@ -178,9 +175,6 @@ budgets, recommendations, disruption handling, travel context and ideas
 that were later dropped or deferred.
 
 #### B. Idea Evolution Timeline
-
-> **IMAGE PLACEHOLDER --- ITERATION / IDEA EVOLUTION TIMELINE**\
-> Paste the final Wanderly evolution timeline here.
 
 `![Wanderly Idea Evolution](images/timeline.png)`
 
@@ -195,9 +189,6 @@ handling.**
 
 #### C. Core User Flow
 
-> **IMAGE PLACEHOLDER --- CORE USER FLOW**\
-> Paste the final Wanderly user-flow diagram here.
-
 `![Wanderly Core User Flow](images/flow.png)`
 
 **What it shows:** The normal planning flow, voluntary Discover flow,
@@ -206,14 +197,11 @@ adaptive suggestions, partial approval and persistent risk handling.
 
 ### 2.3 Mentor Consultation
 
-> Replace the placeholders below with **real consultation details
-> only**. Do not invent mentor feedback.
 
   -----------------------------------------------------------------------
   Date              Mentor            Feedback Received What We Changed
   ----------------- ----------------- ----------------- -----------------
-  \[DATE\]          \[MENTOR NAME\]   \[SPECIFIC        \[CHANGE MADE /
-                                      FEEDBACK\]        REASON IF NOT
+  \[DATE\]          \[Teh Ming En\]   \[Brainstom Ideas with Friends/AI\]        REASON IF NOT
                                                         ADOPTED\]
 
   \[DATE, IF        \[Janelle Tan\]   \[Speech Structure is good\]        REASON IF NOT
@@ -233,8 +221,6 @@ adjustments, modify the proposal and apply only selected changes.
 
 ### 3.1 Group Preferences & Budget Setup
 
-> **REAL PROTOTYPE SCREENSHOT PLACEHOLDER 1**
-
 `![Group Preferences and Budget Setup](images/0.png)`
 
 **Interaction shown:** Travellers configure constraints that influence
@@ -243,16 +229,12 @@ represented.
 
 ### 3.2 Itinerary & Budget
 
-> **REAL PROTOTYPE SCREENSHOT PLACEHOLDER 2**
-
 `![Itinerary and Budget](images/1.png)`
 
 **Interaction shown:** The itinerary remains editable and can represent
 different activities occurring in parallel for different group members.
 
 ### 3.3 Discover & Saved Alternatives
-
-> **REAL PROTOTYPE SCREENSHOT PLACEHOLDER 3**
 
 `![Discover and Saved](images/5.png)`
 
@@ -261,8 +243,6 @@ Travellers can browse relevant alternatives, save them for later or
 manually swap an individual activity.
 
 ### 3.4 Weather Risk & Review Timing
-
-> **REAL PROTOTYPE SCREENSHOT PLACEHOLDER 4**
 
 `![Weather Risk and Review Timing](images/2.png)`
 
@@ -273,8 +253,6 @@ deciding.
 
 ### 3.5 Editable Adaptive Review
 
-> **REAL PROTOTYPE SCREENSHOT PLACEHOLDER 5**
-
 `![Editable Adaptive Review](images/3.png)`
 
 **Interaction shown:** Wanderly prepares a coordinated alternative plan,
@@ -282,8 +260,6 @@ but the traveller remains in control. Suggestions can be reviewed and
 edited before any itinerary change is applied.
 
 ### 3.6 Partial Approval & Remaining Risk
-
-> **REAL PROTOTYPE SCREENSHOT PLACEHOLDER 6**
 
 `![Partial Approval Result](images/4-approval.png)`
 
@@ -430,10 +406,6 @@ flow.
 
 ### 5.3 Proposed MVP Architecture
 
-> **IMAGE PLACEHOLDER --- PROPOSED SYSTEM ARCHITECTURE**\
-> Paste the architecture diagram here and label it **Proposed MVP
-> Architecture**.
-
 `![Proposed Wanderly MVP Architecture](images/system-architecture.png)`
 
 **Proposed flow:** The React client accesses authenticated server-side
@@ -481,19 +453,5 @@ global activity coverage.
 The narrower scope is intentional so the team can demonstrate a reliable
 product within the three-week building phase.
 
-------------------------------------------------------------------------
-
-## Submission Checklist
-
--   [ ] Add the Unlisted YouTube presentation link
--   [ ] Add the public presentation-slides link
--   [ ] Add the public prototype link and test it in incognito/private
-    browsing
--   [ ] Insert the ideation mind map
--   [ ] Insert the idea-evolution timeline
--   [ ] Insert the core user-flow diagram
--   [ ] Add genuine mentor consultation details
--   [ ] Insert the six real prototype screenshots
--   [ ] Insert the proposed MVP architecture diagram
 -   [ ] Verify every technical reference
 -   [ ] Remove instructional placeholder text before final submission
