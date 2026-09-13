@@ -168,7 +168,7 @@ and **how the selected concept evolved**.
 
 #### A. Ideation Mind Map
 
-`![Wanderly Ideation Mind Map](images/board.png)`
+![Wanderly Ideation Mind Map](images/board.png)
 
 **What it shows:** The major directions explored around group planning,
 budgets, recommendations, disruption handling, travel context and ideas
@@ -176,7 +176,7 @@ that were later dropped or deferred.
 
 #### B. Idea Evolution Timeline
 
-`![Wanderly Idea Evolution](images/timeline.png)`
+![Wanderly Idea Evolution](images/timeline.png)
 
 **What it shows:** The concept evolved from a broad group-aware travel
 planner into a focused system combining contextual discovery with
@@ -189,7 +189,7 @@ handling.**
 
 #### C. Core User Flow
 
-`![Wanderly Core User Flow](images/flow.png)`
+![Wanderly Core User Flow](images/flow.png)
 
 **What it shows:** The normal planning flow, voluntary Discover flow,
 weather-risk detection, review-now/review-later decision, editable
@@ -221,7 +221,7 @@ adjustments, modify the proposal and apply only selected changes.
 
 ### 3.1 Group Preferences & Budget Setup
 
-`![Group Preferences and Budget Setup](images/0.png)`
+![Group Preferences and Budget Setup](images/0.png)
 
 **Interaction shown:** Travellers configure constraints that influence
 itinerary planning while choosing how group spending should be
@@ -229,14 +229,14 @@ represented.
 
 ### 3.2 Itinerary & Budget
 
-`![Itinerary and Budget](images/1.png)`
+![Itinerary and Budget](images/1.png)
 
 **Interaction shown:** The itinerary remains editable and can represent
 different activities occurring in parallel for different group members.
 
 ### 3.3 Discover & Saved Alternatives
 
-`![Discover and Saved](images/5.png)`
+![Discover and Saved](images/5.png)
 
 **Interaction shown:** Discover is proactive and user-initiated.
 Travellers can browse relevant alternatives, save them for later or
@@ -244,7 +244,7 @@ manually swap an individual activity.
 
 ### 3.4 Weather Risk & Review Timing
 
-`![Weather Risk and Review Timing](images/2.png)`
+![Weather Risk and Review Timing](images/2.png)
 
 **Interaction shown:** Wanderly distinguishes detecting a possible
 disruption from changing the itinerary. Early forecasts are presented as
@@ -253,7 +253,7 @@ deciding.
 
 ### 3.5 Editable Adaptive Review
 
-`![Editable Adaptive Review](images/3.png)`
+![Editable Adaptive Review](images/3.png)
 
 **Interaction shown:** Wanderly prepares a coordinated alternative plan,
 but the traveller remains in control. Suggestions can be reviewed and
@@ -261,7 +261,7 @@ edited before any itinerary change is applied.
 
 ### 3.6 Partial Approval & Remaining Risk
 
-`![Partial Approval Result](images/4-approval.png)`
+![Partial Approval Result](images/4-approval.png)
 
 **Interaction shown:** Applying only some suggestions does not falsely
 mark every weather issue as resolved. Any affected activity that the
@@ -406,7 +406,7 @@ flow.
 
 ### 5.3 Proposed MVP Architecture
 
-`![Proposed Wanderly MVP Architecture](images/system-architecture.png)`
+![Proposed Wanderly MVP Architecture](images/system-architecture.png)
 
 **Proposed flow:** The React client accesses authenticated server-side
 functionality. Authorised trip and catalogue data are stored in
