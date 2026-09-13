@@ -3,8 +3,8 @@
 **Team:** Christopher Hansen, Philip Ting\
 **Problem Statement:** Travel Planner\
 **Video Presentation:** \[PASTE UNLISTED YOUTUBE LINK HERE\]\
-**Presentation Slides:** \[https://gamma.app/docs/Four-friends-finally-agree-on-a-trip-bv3lp963ut38rsx\]\
-**UI Prototype:** \[https://wanderly-teal.vercel.app/\]
+**Presentation Slides:** https://gamma.app/docs/Four-friends-finally-agree-on-a-trip-bv3lp963ut38rsx
+**UI Prototype:** https://wanderly-teal.vercel.app
 
 ------------------------------------------------------------------------
 
@@ -201,16 +201,16 @@ adaptive suggestions, partial approval and persistent risk handling.
   -----------------------------------------------------------------------
   Date              Mentor            Feedback Received What We Changed
   ----------------- ----------------- ----------------- -----------------
-  \[DATE\]          \[Teh Ming En\]   \[Brainstom Ideas with Friends/AI\]      
+  \[DATE\]          Teh Ming En   Brainstom Ideas with Friends/AI    
 
-  \[DATE\]        \[Janelle Tan\]   \[Speech Structure is important\]       
+  \[DATE\]        Janelle Tan   Speech Structure is important     
   -----------------------------------------------------------------------
 
 ------------------------------------------------------------------------
 
 ## 3. Design & Prototype
 
-**UI Prototype:** \[https://wanderly-teal.vercel.app/\]
+**UI Prototype:** https://wanderly-teal.vercel.app/
 
 The prototype demonstrates one consistent end-to-end travel scenario:
 configure preferences and budget, view an itinerary, explore
