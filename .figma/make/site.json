@@ -1,0 +1,11 @@
+{
+  "title": "Wanderly",
+  "description": "Plan and organize your trips effortlessly with this intuitive travel planner, designed for travelers seeking a seamless and enjoyable planning experience.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

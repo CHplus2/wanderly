@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Inter+Tight:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --color-bg: #f8f5ef;
+  --color-surface: #ffffff;
+  --color-surface-2: #f2ede3;
+  --color-surface-3: #e8e1d3;
+  --color-line: #e3dccd;
+  --color-line-soft: #ece5d8;
+  --color-ink: #171717;
+  --color-muted: #57534d;
+  --color-faint: #716b62;
+  --color-brand: #172a46;
+  --color-brand-hi: #24466f;
+  --color-brand-fg: #ffffff;
+  --color-accent: #ff715b;
+  --color-accent-hi: #ff8975;
+  --color-accent-soft: #ffe7e1;
+  --color-accent-fg: #ffffff;
+  --color-gold: #f4c95d;
+  --color-good: #2e9e6b;
+  --color-good-soft: #e2f2e9;
+  --color-warn: #d9962c;
+  --color-warn-soft: #f8edd5;
+  --color-bad: #e0484d;
+  --color-bad-soft: #fbe4e5;
+
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-display: 'Inter Tight', 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+  --radius: 10px;
+}
+
+html {
+  background: #e8e1d3;
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background: var(--color-bg);
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Prevent flex/grid min-content sizing from squeezing text containers. */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+
+*:hover {
+  scrollbar-color: var(--color-line) transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 8px;
+}
+
+*:hover::-webkit-scrollbar-thumb {
+  background: var(--color-line);
+}
+
+::selection {
+  background: color-mix(in oklab, var(--color-accent) 35%, transparent);
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin: 0;
+}
+
+button {
+  font-family: inherit;
+}
+
+.tnum {
+  font-variant-numeric: tabular-nums;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.anim-in {
+  animation: fadeIn 0.25s ease both;
+}
+
+@keyframes barGrow {
+  from { width: 0; }
+}
+
+/* The viewport contains fixed navigation and dialogs; only its content scrolls. */
+.demo-stage {
+  --phone-height: min(900px, calc(100dvh - 48px));
+  --app-height: calc(var(--phone-height) - 104px);
+  min-height: 100dvh;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: radial-gradient(ellipse at 30% 20%, #faf7f1 0%, #e8e1d3 65%, #d4cbbb 100%);
+}
+.phone-frame {
+  position: relative;
+  width: 414px;
+  height: var(--phone-height);
+  padding: 9px;
+  border: 2px solid #98938d;
+  border-radius: 58px;
+  background: linear-gradient(120deg, #d2cec7, #625e59 32%, #b9b4ac 65%, #625e59);
+  box-shadow: 0 30px 65px -20px #352d3b66, 0 8px 16px #352d3b26, inset 0 0 0 2px #ded9d1;
+}
+.phone-screen {
+  height: 100%;
+  overflow: clip;
+  border-radius: 47px;
+  background: var(--color-bg);
+  box-shadow: 0 0 0 3px #171717;
+  display: flex;
+  flex-direction: column;
+}
+.phone-status {
+  position: relative;
+  flex: 0 0 58px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 25px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.phone-island {
+  position: absolute;
+  top: 11px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 116px;
+  height: 32px;
+  border-radius: 24px;
+  background: #090909;
+}
+.phone-island::after {
+  content: "";
+  position: absolute;
+  right: 11px;
+  top: 11px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 35%, #20334c, #0b1019 65%);
+}
+.phone-status-icons { display: flex; align-items: center; gap: 6px; }
+.phone-battery { width: 23px; height: 12px; border: 1px solid #17171766; border-radius: 4px; padding: 2px; position: relative; }
+.phone-battery::before { content: ""; display: block; height: 100%; background: #171717; border-radius: 1px; }
+.phone-battery::after { content: ""; position: absolute; right: -3px; top: 3px; width: 2px; height: 4px; background: #17171766; border-radius: 1px; }
+.phone-viewport { container: phone / inline-size; position: relative; flex: 1; min-height: 0; transform: translateZ(0); overflow: clip; }
+.phone-scroll { height: 100%; overflow-y: auto; overflow-x: hidden; overscroll-behavior: contain; scrollbar-width: none; }
+.phone-scroll::-webkit-scrollbar { display: none; }
+.phone-scroll .min-h-screen { min-height: var(--app-height); }
+.phone-home { flex: 0 0 24px; display: grid; place-items: center; background: var(--color-bg); }
+.phone-home span { width: 130px; height: 5px; border-radius: 10px; background: #171717; }
+.phone-button { position: absolute; width: 4px; border-radius: 3px; background: linear-gradient(90deg, #66615b, #c6c0b8); left: -5px; }
+.phone-action { top: 100px; height: 24px; }
+.phone-volume-up { top: 146px; height: 48px; }
+.phone-volume-down { top: 206px; height: 48px; }
+.phone-power { left: auto; right: -5px; top: 169px; height: 72px; }
+
+.phone-scroll :where(button, input, select, textarea):focus-visible {
+  outline: 2px solid var(--color-brand-hi);
+  outline-offset: 3px;
+}
+.phone-scroll :where(input, select, textarea) { min-width: 0; font-size: 16px; }
+.phone-scroll button { touch-action: manipulation; }
+.phone-scroll button > svg { flex-shrink: 0; }
+.phone-scroll nav button[aria-current="page"] { background: var(--color-accent-soft); color: #ad3726; }
+
+@media (prefers-reduced-motion: reduce) {
+  .phone-screen *, .phone-screen *::before, .phone-screen *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}
+
+@media (max-width: 480px) {
+  .demo-stage { --phone-height: 100dvh; --app-height: calc(100dvh - env(safe-area-inset-bottom, 0px)); padding: 0; }
+  .phone-frame { width: 100%; height: 100dvh; padding: 0; border: 0; border-radius: 0; box-shadow: none; }
+  .phone-screen { border-radius: 0; box-shadow: none; }
+  .phone-status, .phone-button { display: none; }
+  .phone-home { flex-basis: env(safe-area-inset-bottom, 0px); }
+  .phone-home span { display: none; }
+}
